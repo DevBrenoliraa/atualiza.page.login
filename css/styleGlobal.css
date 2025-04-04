@@ -20,11 +20,11 @@ body {
     justify-content: center; /* centraliza na horizontal */
     align-items: center; /* centraliza na vertical */
     height: 100vh;
-    background-image: url('../images/bglogin.png');
+    background-image: url('../images/imgcasamentoBG.png');
     background-size: cover; /* Ou "contain", "auto", etc. */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
-
+    backdrop-filter: blur(4px);
     
 }
 

@@ -1,7 +1,7 @@
 #login-form {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 14px;
 }
 
 .input-group {
@@ -25,10 +25,11 @@
 }
 
 button {
+    margin-top: 14px;
     padding: 8px; /* Mais confortável para clique */
     border: none;
     border-radius: 10px;
-    background-color: #6A6A6A;
+    background-color: #FFB7B8;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -37,7 +38,18 @@ button {
 }
 
 button:hover {
-    background-color: #FFB7B8;
+    background-color: #6A6A6A;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Adiciona um efeito de elevação */
 }
 
+.linkCriar {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 32px;
+    color: #6A6A6A;
+}
+
+.linkCriar a {
+    color: #FFB7B8;
+    font-weight: 600;
+}
