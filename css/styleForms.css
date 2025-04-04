@@ -1,0 +1,43 @@
+#login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #6A6A6A;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    background-color: #EDEDED;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+button {
+    padding: 8px; /* Mais confortável para clique */
+    border: none;
+    border-radius: 10px;
+    background-color: #6A6A6A;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Transição mais rápida e fluida */
+}
+
+button:hover {
+    background-color: #FFB7B8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Adiciona um efeito de elevação */
+}
+
